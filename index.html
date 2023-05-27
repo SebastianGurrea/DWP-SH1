@@ -4,6 +4,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
      <title>VaidrollTeamLogin4</title>
      <link rel="stylesheet" href="login.css">
+
+     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
     <div class="cajafuera">
@@ -23,6 +25,7 @@
         <div class="checkboxvai"><a onclick="abrirform()">Recuperar contraseña</a></div>
         <button type="submit" class="botonenviar" name="btnloginx">Iniciar sesión</button>
         </form>
+         
 		<!--Formulario para registrar -->
         <form id="frmregistrar" class="grupo-entradas" method="POST" action="registrar.php">
 			<b>&#128231; Correo</b>
@@ -34,7 +37,14 @@
 			 <input type="text" class="cajaentradatexto" required name="txtnombre">
         <div class="checkboxvai"><input type="checkbox"> Acepto los términos y condiciones de uso.</div>
         <button type="submit" class="botonenviar" name="btnregistrarx">Registrar</button>
+
+        
         </form>
+        <div class>
+            <div class="g-recaptcha" data-sitekey="6LfctUUmAAAAAMDcXSAcs5HnRD858KV9iJsoOogI"></div>
+            
+            </div>
+        
         </div>
     </div>
     <script>
