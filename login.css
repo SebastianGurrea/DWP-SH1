@@ -169,13 +169,13 @@ table
 }
 th 
 {
-    background: steelblue;
+    background: black;
     height: 40px;
     font-weight: lighter;
-    text-shadow: 0 1px 0 #38678f;
+    text-shadow: 0 1px 0 black;
     color: white;
-    border: 1px solid #38678f;
-    box-shadow: inset 0px 1px 2px #568ebd;
+    border: 1px solid black;
+    box-shadow: inset 0px 1px 2px black;
     transition: all 0.2s;
 	font-size: 18px;
 
@@ -198,7 +198,7 @@ td
 	text-align:center;
 	width: 100px;
 	display: inline-block;
-	background-color: #1C62C1;
+	background-color: black;
 	padding: 6px 10px;
 	border-radius:5px;
 
